@@ -1,0 +1,45 @@
+{
+  "name": "yunisphere-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^7.0.2",
+    "axios": "^1.9.0",
+    "cors": "^2.8.5",
+    "echarts": "^5.6.0",
+    "echarts-for-react": "^3.0.3",
+    "express": "^4.21.2",
+    "lodash": "^4.17.21",
+    "lucide-react": "^0.503.0",
+    "maplibre-gl": "^5.2.0",
+    "mongoose": "^8.10.0",
+    "openai": "^4.88.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.5.0",
+    "react-svg": "^16.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@svgr/webpack": "^8.1.0",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "globals": "^15.14.0",
+    "vite": "^6.0.7",
+    "vite-plugin-svgr": "^4.3.0"
+  }
+}
